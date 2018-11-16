@@ -157,7 +157,7 @@ var captionText = document.getElementById("caption");
 //Picture of Me
 var egg = new Egg();
 egg
-  .AddCode("k,i,n,g,enter", function() {
+  .AddCode("k,i,n,g", function() {
     
     modal.style.display = "block";
     //modalImg.src = lilMe.jpg;
@@ -175,7 +175,7 @@ egg
 var img2 = document.getElementById('myImg2');
 var egg = new Egg();
 egg
-  .AddCode("t,h,e,space,t,e,a,m,enter", function() {
+  .AddCode("t,h,e,space,t,e,a,m", function() {
     modal.style.display = "block";
     //modalImg.src = lilMe.jpg;
     modalImg.src = img2.src;
