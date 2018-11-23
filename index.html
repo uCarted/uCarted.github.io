@@ -203,21 +203,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
     </nav>
 
         <div class="banner">
-        <img id="gif-2" class="img-responsive logo-banner" src="./images/logo_full.png" 
-    onmouseover="theIn()" 
-    onmouseout="theOut()" 
-  />
+        <img id="gif-2" class="img-responsive logo-banner" src="./images/logo_full.png" onmouseover="this.src='./images/bigSupreme.gif'" onmouseout="this.src='./images/logo_full.png'">
         
     </div>
-
-    <script>
-        function theIn() {
-            document.getElementById('gif-2').src='./images/bigSupreme.gif'
-        }
-        function theOut() {
-            document.getElementById('gif-2').src='./images/logo_full.png'
-        }
-    </script>
     
 
 
