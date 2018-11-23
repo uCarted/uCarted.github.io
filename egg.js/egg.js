@@ -188,21 +188,7 @@ egg
     console.log(this.activeEgg.metadata);
   }).Listen();
 
-var img3 = document.getElementById('myImg3');
-var egg = new Egg();
-egg
-  .AddCode("up,up,down,down,left,right,left,right,b,a", function() {
-    modal.style.display = "block";
-    //modalImg.src = lilMe.jpg;
-    modalImg.src = img3.src;
-    captionText.innerHTML = '<font size="6">  </font>';
-    console.log("This happened");
-  }, "konami-code")
- .AddHook(function(){
-    //alert("Konami!"); //added
-    console.log("Hook called for: " + this.activeEgg.keys);
-    console.log(this.activeEgg.metadata);
-  }).Listen();
+
 
  // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
