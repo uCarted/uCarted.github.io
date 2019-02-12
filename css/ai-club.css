@@ -69,12 +69,9 @@ a:hover {
 }
 .banner2 {
   position: absolute;
-  text-align: center;
-  top: 62%;
+  top: 60%;
   left:50%;
   transform: translate(-50%,-50%);
-  /*text-shadow: 2px 2px #ffffff;*/
- /* background-color: #000000;*/
 }
 
 .name {
